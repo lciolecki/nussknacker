@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - dagre > lodash:
+        patched: '2022-10-06T15:34:24.709Z'
+    - react-hot-loader > lodash:
+        patched: '2022-10-06T15:34:24.709Z'
+    - dagre > graphlib > lodash:
+        patched: '2022-10-06T15:34:24.709Z'
+    - jointjs > graphlib > lodash:
+        patched: '2022-10-06T15:34:24.709Z'
+    - jointjs > dagre > lodash:
+        patched: '2022-10-06T15:34:24.709Z'
+    - jointjs > dagre > graphlib > lodash:
+        patched: '2022-10-06T15:34:24.709Z'
+    - react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-10-06T15:34:24.709Z'
+    - react-select > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-10-06T15:34:24.709Z'
